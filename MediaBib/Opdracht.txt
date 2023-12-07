@@ -1,0 +1,34 @@
+﻿Oefening: Digitale Mediabibliotheek
+
+Scenario:
+Je bent gevraagd om een systeem te ontwikkelen voor een digitale mediabibliotheek 
+die verschillende soorten media kan beheren, zoals boeken, muziekalbums en films. 
+Het systeem moet in staat zijn om verschillende acties uit te voeren afhankelijk van het mediatype.
+
+Doel:
+Implementeer een set van interfaces en klassen die de volgende vereisten dekken:
+	1.	Interfaces:
+		•	IBoek: Methoden Lees() en ToonDetails().
+		•	IMuziekAlbum: Methoden SpeelAf() en ToonDetails().
+		•	IFilm: Methoden Bekijk() en ToonDetails().	
+	2.	Implementatie Klassen:
+		•	Boek, MuziekAlbum, Film: Elke klasse implementeert de bijbehorende interface.
+	3.	Functionaliteiten:
+		•	Lees() voor een boek moet bijvoorbeeld printen: "Lezen van [boektitel]".
+		•	SpeelAf() voor een muziekalbum moet printen: "Afspelen van [albumnaam]".
+		•	Bekijk() voor een film moet printen: "Bekijken van [filmtitel]".
+		•	ToonDetails() moet relevante informatie tonen over het mediatype.
+	4.	Mediabibliotheek Klasse:
+		•	Creëer een klasse Mediabibliotheek met een methode VoegMediaToe(Object media) 
+			die verschillende mediatypes kan accepteren.
+		•	Implementeer een methode ToonAlleMediaDetails() die details toont 
+			van alle media in de bibliotheek.
+
+Opdracht:
+		•	Ontwerp en implementeer de bovengenoemde interfaces en klassen.
+		•	Zorg ervoor dat elke methode de verwachte functionaliteit uitvoert.
+		•	Implementeer de Mediabibliotheek klasse om verschillende soorten media-objecten te kunnen beheren.
+
+Bonus:
+		•	Voeg een zoekfunctie toe in de Mediabibliotheek klasse waarmee gebruikers 
+			kunnen zoeken naar specifieke media op titel of type.
