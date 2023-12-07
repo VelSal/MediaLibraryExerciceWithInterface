@@ -15,11 +15,9 @@
         {
             return $"Afspelen van {this.AlbumNaam}";
         }
-
         public string ToonDetails()
         {
             return $"{this.AlbumNaam} van {this.ArtistNaam}";
         }
-
     }
 }

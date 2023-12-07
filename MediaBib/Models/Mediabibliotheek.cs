@@ -43,7 +43,6 @@ namespace MediaBib.Models
         {
             while (true)
             {
-                
                 Console.Write("Naar welke media bent u op zoek? (Druk op 1, 2, 3 of 4) \n\t1. Boeken \t2. Films \t3. Muziek Albums \t4. Prograam afsluiten\n");
                 string userChoiceInput = Console.ReadLine();
                 Console.Clear();
@@ -93,7 +92,6 @@ namespace MediaBib.Models
                     }
                 }
             }
-
         }
     }
 }

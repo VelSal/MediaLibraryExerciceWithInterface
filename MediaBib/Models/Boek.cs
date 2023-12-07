@@ -10,6 +10,7 @@
             this.BoekTitel = boekTitel;
             this.AutheurNaam = autheurNaam;
         }
+
         public string Lees()
         {
             return $"Lezen van {this.BoekTitel}";
@@ -18,7 +19,5 @@
         {
             return $"{this.BoekTitel} van {this.AutheurNaam}";
         }
-
-        
     }
 }

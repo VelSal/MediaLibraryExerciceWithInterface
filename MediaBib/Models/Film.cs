@@ -15,7 +15,6 @@
         {
             return $"Bekijken van {this.FilmTitel}";
         }
-
         public string ToonDetails()
         {
             return $"{this.FilmTitel} van {this.Filmregisseur}";

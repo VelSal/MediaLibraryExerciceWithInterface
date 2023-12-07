@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MediaBib.Models.Boek">
+    <Position X="1.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAQAAAgAAAAAA=</HashCode>
+      <FileName>Models\Boek.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MediaBib.Models.Film">
+    <Position X="4" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAQAAACAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\Film.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MediaBib.Models.MuziekAlbum">
+    <Position X="6.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAACAAAAAAAgACAAAAAAAA=</HashCode>
+      <FileName>Models\MuziekAlbum.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MediaBib.Models.Mediabibliotheek">
+    <Position X="1.75" Y="0.5" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAIAAAAAAAAABAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Models\Mediabibliotheek.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MediaBib.Models.IBoek">
+    <Position X="1.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAQAAAgAAAAAA=</HashCode>
+      <FileName>Models\IBoek.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MediaBib.Models.IFilm">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAQAAACAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\IFilm.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MediaBib.Models.IMuziekAlbum">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAACAAAAAAAgACAAAAAAAA=</HashCode>
+      <FileName>Models\IMuziekAlbum.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

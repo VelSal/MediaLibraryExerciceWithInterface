@@ -8,7 +8,6 @@ namespace MediaBib
     {
         static void Main(string[] args)
         {
-
             MuziekAlbum muziek = new MuziekAlbum("Damn", "Kendrick Lamar");
             Film film = new Film("Jurrassic Park", "Steven Spielberg");
             Boek boek = new Boek("Crime and Punishment", "Fyodor Dostoevsky");
