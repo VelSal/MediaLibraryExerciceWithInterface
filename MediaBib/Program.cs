@@ -21,7 +21,9 @@ namespace MediaBib
             alleMedia.VoegMediaToe(film);
             alleMedia.VoegMediaToe(boek);
 
-            alleMedia.ToonAlleMediaDetails();
+            //alleMedia.ToonAlleMediaDetails();
+
+            alleMedia.ZoekMedia();
 
             Console.ReadLine();
 
