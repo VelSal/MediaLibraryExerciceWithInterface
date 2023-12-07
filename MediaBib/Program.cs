@@ -1,9 +1,6 @@
 ﻿using MediaBib.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MediaBib
 {
@@ -20,9 +17,12 @@ namespace MediaBib
             alleMedia.VoegMediaToe(muziek);
             alleMedia.VoegMediaToe(film);
             alleMedia.VoegMediaToe(boek);
+            alleMedia.VoegMediaToe(new MuziekAlbum("Dark Side of the Moon", "Pink Floyd"));
+            alleMedia.VoegMediaToe(new Film("Avatar", "James Cameron"));
+            alleMedia.VoegMediaToe(new Boek("Monster", "Naoki Urazawa"));
 
+            //De twee methodes hier beneden werken goed
             //alleMedia.ToonAlleMediaDetails();
-
             alleMedia.ZoekMedia();
 
             Console.ReadLine();

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MediaBib.Models
 {
@@ -46,8 +43,22 @@ namespace MediaBib.Models
         {
             while (true)
             {
-                Console.Write("Naar welke media bent u op zoek? (Druk op 1, 2, 3 of 4) \n\t1. Boek \t2. Film \t3. Muziek Album \t4. Prograam afsluiten\n");
+                
+                Console.Write("Naar welke media bent u op zoek? (Druk op 1, 2, 3 of 4) \n\t1. Boeken \t2. Films \t3. Muziek Albums \t4. Prograam afsluiten\n");
                 string userChoiceInput = Console.ReadLine();
+                Console.Clear();
+
+                if (userChoiceInput == "1")
+                {
+                    Console.WriteLine("Boeken in de mediabibliotheek: ");
+                }
+                else if (userChoiceInput == "2") {
+                    Console.WriteLine("Films in de mediabibliotheek: ");
+                }
+                else if (userChoiceInput == "3")
+                {
+                    Console.WriteLine("Muziek albums in de mediabibliotheek: ");
+                }
 
                 foreach (var item in AlleMedia)
                 {
@@ -56,24 +67,18 @@ namespace MediaBib.Models
                         case "1":
                             if (item is IBoek boek)
                             {
-                                Console.Clear();
-                                Console.WriteLine("Beschikbare boeken: ");
                                 Console.WriteLine("\t" + boek.ToonDetails());
                             }
                             break;
                         case "2":
                             if (item is IFilm film)
                             {
-                                Console.Clear();
-                                Console.WriteLine("Beschikbare boeken: ");
                                 Console.WriteLine("\t" + film.ToonDetails());
                             }
                             break;
                         case "3":
                             if (item is IMuziekAlbum album)
                             {
-                                Console.Clear();
-                                Console.WriteLine("Beschikbare boeken: ");
                                 Console.WriteLine("\t" + album.ToonDetails());
                             }
                             break;
