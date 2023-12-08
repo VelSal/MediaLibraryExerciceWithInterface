@@ -25,7 +25,6 @@ namespace MediaBib
             alleMedia.ZoekMedia();
 
             Console.ReadLine();
-
         }
     }
 }
